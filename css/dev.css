@@ -1,0 +1,1620 @@
+@charset "UTF-8";/* CSS Document */
+
+
+/* ==========================================================================
+  ************* Start About Page Style ********************
+ ========================================================================== */
+
+ .about .header-container{
+    background: url(../images/about/bg-hero.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 767px;
+    background-color: #26af6f;
+  }
+  .about .contents{
+    margin-left: 0;
+    padding: 8% 0px 0% 0px !important;
+  }
+  .about .jumbotron{
+    background: white;
+  }
+  .about .mt-5{
+    margin-top: 3rem !important;
+  }
+  .about .contents h2{
+    color: #2b2943;
+    font-size: 48px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.08;
+    letter-spacing: normal;
+    text-align: center;
+    
+  }
+  .about .flag-section{
+    float: none !important;
+  }
+  .about .header-container p{
+    font-family: Larsseit-Light;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    color: #666666;
+  }
+  .about .header-container button{
+    background: #2b2943;
+    margin-top: 15%;
+  }
+  .about .header-container button:hover{
+    background: #403d6e !important;
+  }
+  .about .hero-area .contents .head-title{
+    font-family: 'Larsseit-Light';
+    color: #2b2943;
+  }
+  .about .ilu-about-1{
+    object-fit: contain;
+    margin-left: 12%;
+    width: 82%;
+  }
+  .about .safgaurd-sec{
+    background: #26af6f;
+  }
+  .about .safgaurd-section{
+    background: transparent;
+    padding: 7% 10% 20% 10%;
+    margin-top: -1%;
+  }
+  
+  .about .safgaurd-section .safgaurd-title{
+    font-family: Larsseit-Light;
+    font-size: 42px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #ffffff;
+  } 
+  .about .tab-bg{
+    position: absolute;
+    left: 2%;
+    width: 50%;
+    border-radius: 30px;
+    z-index: 0;
+    background-color: #2b2943;
+    height: 60px;
+    transition: 0.5s;
+  }
+  .about .two-bg{
+    position: absolute;
+    left: 48%;
+    width: 50%;
+    border-radius: 30px;
+    z-index: 0;
+    background-color: #2b2943;
+    height: 60px;
+    transition: 0.5s;
+  }
+  .about .three-bg{
+    position: absolute;
+    left: 60%;
+    width: 19%;
+    border-radius: 30px;
+    z-index: 0;
+    background: #04ab6a;
+    height: 60px;
+    transition: 0.5s;
+  }
+  .about .safgaurd-section ul{
+    background-color: #1e905b;
+
+    border-radius: 30px;
+  }
+  .about .safgaurd-section li{
+    width: 50%;
+    z-index: 2;
+    cursor: pointer;
+  }
+  .about .safgaurd-section li a{
+      color: white;
+      border-radius: 30px;
+      width: 100%;
+      height: 60px;
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      border: none !important;
+      font-family: Larsseit-Light;
+      font-size: 20px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.14;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      padding: 0 13%;
+  }
+  .about .safgaurd-section .btn-right{
+    margin-left: -9%;
+    z-index: 1;
+  }
+  .about .safgaurd-section li .active{
+    display: flex !important;
+  }
+  .about .btn-get-in-touch{
+    width: 189px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #04ab6a;
+    font-family: 'Larsseit-Medium';
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    text-align: center;
+    color: #ffffff;
+    border:none;
+  }
+  .about .btn-get-in-touch:hover{
+    background-color: #1ac784 !important;
+    cursor: pointer !important;
+  }
+  .about .btn-schedule-a-call{
+    width: 158px;
+    height: 48px;
+    border-radius: 30px;
+    background-color: #2b2943;
+    font-family: 'Larsseit-Medium';
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: center;
+    color: #ffffff;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    }
+    .about .btn-schedule-a-call:hover{
+      background-color: #403d6e;
+    }
+  .about .safgaurd-section .column-head{
+    font-family: Larsseit-Light;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.33;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+  .about .safgaurd-section .column-description{
+    font-family: Larsseit-Light;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+  .about .safgaurd-section .left-column{
+    padding-left: 0%;
+    padding-right: 15%;
+  }
+  .about .safgaurd-section .middle-col{
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .about .safgaurd-section .right-col{
+    padding-left: 15%;
+    padding-right: 0%;
+  }
+  .about .safgaurd-section .safgaurd-columns{
+    margin-top: 10%;
+  }
+  .about .message-image{
+    margin-top: -130px;
+  }
+  .about .message-container h3{
+    font-family: Larsseit-Light;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: #232137;
+    width: 806px;
+  }
+  .about .message-container .message-heading{
+    
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+  .about .message-1{
+    width: 76%;
+  }
+  .about .message-container .qoutes-up{
+    height: 29.7px;
+    margin-right: 3%;
+  }
+  .about .message-container .qoutes-down{
+    height: 29.7px;
+    margin-left: 3%;
+  }
+  .about .bottom-bg{
+    background: url("../images/about/path.png") no-repeat;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    background-position: bottom;
+    min-height:331.4px;
+  }
+  .about .message2-container{
+    margin-top: -7%;
+    margin-left: 10%;
+  }
+  .about .message-3{
+    margin-left: 30%;
+  }
+  .about .drives-container{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0;
+  }
+  .about .drives-container h1{
+    font-family: Larsseit-Light;
+    font-size: 48px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.08;
+    letter-spacing: normal;
+    color: #2b2943;
+  }
+  .about .drives-container h3{
+    font-family: Larsseit-Light;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #232137;
+  }
+  .about .drives-container p{
+    font-family: Larsseit-Light;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    color: #666666;
+  }
+  .about .drives-container .Group-14{
+    height: 152px;
+  }
+  .about .drives-container .Group-9{
+    height: 114px;
+  }
+  .about .drives-container .Group-6{
+    height: 134px;
+  }
+  .about .drives-container .row{
+    margin-bottom: 5%;
+  }
+  .about .video-container{
+    text-align: center;
+    padding-bottom: 0 !important; 
+    margin-bottom: 0 !important;
+  }
+  .about .video-container h1{
+    font-family: Larsseit-Light;
+    font-size: 42px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #232137;
+    margin-bottom: 5%;
+  }
+  .about .video {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .about .wrapper{
+    display:table;
+    width:auto;
+    position:relative;
+    width:80%;
+  }
+  .about .playpause {
+    /* background-image:url(http://png-4.findicons.com/files/icons/2315/default_icon/256/media_play_pause_resume.png); */
+    background-repeat:no-repeat;
+    width:50%;
+    height:50%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+  }
+  .about .btn-play-vid{
+    box-shadow: 0 27px 54px -8px rgba(0, 0, 0, 0.03);
+    background-color: #ffffff;
+    color: #2b2943;
+    text-transform: unset;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  .about .b-call-sec{
+    background-color: #04ab6a;
+  }
+  .about .b-container{
+    background-color: transparent;
+    margin: 0;
+    padding: 0 10% 10% 10%;
+    margin-top: -4%;
+  
+  }
+  .about .top-call-bg{
+    background: url(../images/about/path2.png);
+    min-height:400px;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+    padding-top: 4%;
+    margin-top: -1% !important;
+    background-position: bottom;
+  }
+  .about .b-call-sec h1{
+    font-family: Larsseit-Light;
+    font-size: 74px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.76;
+    letter-spacing: normal;
+    color: #2b2943;
+  }
+  .about .b-call-sec h4{
+    font-family: Larsseit-Light;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-right: 27%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  .about .btn{
+    width: 189px;
+    height: 60px;
+  }
+
+  /* ==========================================================================
+    *************  About Responsive Page Style ********************
+   ========================================================================== */
+   @media (min-width:800px) and (max-width: 1500px){
+    .drive-h1 {
+      font-size: 36px !important;
+      margin-left: -65px;
+    }
+   }
+   @media (min-width:880px){
+    .aboutAbsoluteDiv {
+     position: absolute;
+     bottom: 300px;
+     top: auto;
+   }
+   .aboutFixedDiv {
+     position: fixed;
+     top: 150px;
+   }
+    }
+  @media (max-width:767px){
+    .about{
+      text-align: center !important;
+    }
+    .about .left-column,.right-col,.middle-col{
+      padding: 0 !important;
+    }
+    .about .mb-sm-50{
+      margin-bottom: 50px;
+    }
+  }
+  @media (max-width:600px){
+    .about .btn-line-break{
+      display: block;
+    }
+  }
+
+  @media (min-width:1500px){
+    .about .top-call-bg{
+      min-height: 500px;
+    }
+  }
+  
+  @media (max-width: 480px) and (min-width: 320px){
+    .about .head-title{
+      font-size: 34px !important;
+      padding: 9% 9% 0 9%;
+    }
+    .about .header-container .row{
+      margin-top: 0 !important;
+    }
+    .about .header-container .row p{
+      font-size: 16px !important;
+      padding: 0px 15%;
+    }
+    .about .header-container button{
+      margin-top: 5%;
+      width: 170px;
+      height: 44px;
+      font-family: Larsseit-Light;
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 0.64px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .about .ilu-about-1{
+      margin-left: -1%;
+      width: 100%;
+      margin-top: 22%;
+      margin-bottom: 10%;
+  }
+  .about .header-container{
+    background-position: inherit;
+  }
+  .about .safgaurd-section{
+    
+    padding: 7% 7% 20% 7%;
+  }
+  .about .safgaurd-section .safgaurd-title{
+    font-size: 28px;
+    padding-bottom: 10%;
+  }
+  .about .safgaurd-section li a{
+    height: 44px;
+    font-size: 15px;
+    line-height: 1.14;
+    padding: 0px 29px;
+  }
+  .about .two-bg{
+    height: 44px;
+  }
+  .about .tab-bg{
+    height: 44px;
+    left: 4%;
+    width: 50%;
+  }
+  .about .message-1{
+    width: 152px;
+    height: 48px;
+  }
+  .about .message-image{
+    margin-top: -80px;
+  }
+  .about .message-container h3{
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666;
+    margin-top: 10%;
+  }
+  .about .message-container .message-heading{
+    align-items: start;
+    margin-top: 31%;
+  }
+  .about .message-3{
+    display: none;
+  }
+  .about .bottom-bg{
+    min-height: 130px;
+  }
+  .about .message2-container{
+    margin-top: 10%;
+    text-align: left;
+    margin-left: -15%;
+  }
+  .about .message-container{
+    padding-bottom: 0;
+  }
+  .about .message-container .qoutes-down{
+    width: 23px;
+    height: 19px;
+  }
+  .about .message-container .qoutes-up{
+    width: 23px;
+    height: 19px;
+  }
+  .about .drives-container h1{
+    font-size: 28px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #232137;
+  }
+  .about .drives-container .Group-14{
+    height: 107px;
+  }
+  .about .drives-container .Group-9{
+    height: 80px;
+  }
+  .about .drives-container .Group-6{
+    height: 94px;
+  }
+  .about .drives-container h3{
+    font-size: 20px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #232137;
+    margin-top: 10% !important;
+  }
+  .about .drives-container p{
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666666;
+  }
+  .about .video-container h1{
+    font-size: 28px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #232137;
+    margin: 0 20px;
+  }
+  .about .video-container{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .about .wrapper{
+    width: 100%;
+    margin-top: 10%;
+  }
+  .about .btn-play-vid{
+    width: 170px;
+    height: 44px;
+    box-shadow: 0 36px 54px -8px rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+    border-radius: 30px;
+  }
+  .about .playpause{
+    position: absolute;
+    margin-top: 42%;
+     
+  }
+  .about .top-call-bg{
+    min-height: 200px;
+    
+  }
+  .about .b-call-sec h1{
+    font-size: 34px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.24;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2943;
+  }
+  .about .b-call-sec h4{
+    padding-right: 0;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    width: 84%;
+      margin: 0 auto;
+      margin-bottom: 10%;
+      margin-top: 5%;
+  }
+  .about .bottom-call{
+    text-align: center;
+  }
+  .about .bottom-call button{
+    margin: 0 auto;
+    width: 170px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .about .b-container{
+    padding: 0;
+    padding-top: 15%;
+  }
+  .about .customize-ilu{
+    width: 110%;
+    margin-top: 20%
+  }
+  }
+  /* ==========================================================================
+    ************* End About Responsive Page Style ********************
+   ========================================================================== */
+  
+  
+  
+   /* ==========================================================================
+    ************* End About Page Style ********************
+   ========================================================================== */
+  
+  
+  
+  
+  /* ==========================================================================
+    Press page
+   ========================================================================== */
+   .press .bg-container{
+    background-image: linear-gradient(to top, #ffffff, #defae8);
+    min-height: 846.8px;
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+  }
+  .press .press-section .tabs-links{
+    padding: 0 21%;
+    margin-top: 10%;
+  }
+  .press .press-section ul{
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 36px 54px -8px rgba(0, 0, 0, 0.07);
+    background-color: #ffffff !important;
+    height: 60px;
+  }
+  .press .press-section ul a{
+    height: 60px;
+    border: 0px solid #F7F7F7;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex !important;
+    border: none !important;
+    font-family: Larsseit-Light;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color:  #04ab6a;
+  }
+  .press .press-section ul .active{
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+    height: 60px;
+  }
+  .press .press-section .image-container{
+    width: 85%;
+    height: 140px;
+    border-radius: 12px;
+    box-shadow: 0 27px 54px -8px rgba(0, 0, 0, 0.03), 0 2px 4px -1px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .press .press-section .tab-content{
+    padding: 10%;
+    padding-top: 5%;
+  }
+  .press .press-section .tab-content h3{
+    font-size: 22px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    color: #232137;
+  }
+  .press .press-section .tab-content p{
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    color: #666666;
+  }
+  .press .press-section .tab-content .date{
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #666666;
+    margin-top: 10%;
+  }
+  .press .press-section .tab-content a{
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    color: #26af6f;
+    font-family: Larsseit-Medium;
+  }
+  .press .press-section .nav-item{
+    z-index: 1;
+  }
+  .press .press-section .tab-content .mt-5{
+    margin-top: 10% !important;
+  }
+  .tab-content .tab-2{
+    width: 61%;
+  }
+  .tab-content button{
+    border-radius: 30px;
+    box-shadow: 0 27px 54px -8px rgba(0, 0, 0, 0.03), 0 2px 4px -1px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff !important;
+  }
+  .tab-content .color-gray{
+  color: #b4b4b4 !important;
+
+  }
+  .press .left-margin{
+    padding-right: 5%;
+  }
+  .press .right-margin{
+    padding-left: 5%;
+  }
+  .press .tab-bg{
+    position: absolute;
+    left: 21%;
+    width: 19%;
+    border-radius: 30px;
+    z-index: 0;
+    background: #04ab6a;
+    height: 60px;
+    transition: 0.5s;
+  }
+  .press .two-bg{
+    position: absolute;
+    left: 40%;
+    width: 19%;
+    border-radius: 30px;
+    z-index: 0;
+    background: #04ab6a;
+    height: 60px;
+    transition: 0.5s;
+  }
+  .press .three-bg{
+    position: absolute;
+    left: 60%;
+    width: 19%;
+    border-radius: 30px;
+    z-index: 0;
+    background: #04ab6a;
+    height: 60px;
+    transition: 0.5s;
+  }
+  /*==========================================================================
+    End Press page
+   ========================================================================== */
+ /*==========================================================================
+    Responsive Press
+   ========================================================================== */
+   @media (max-width: 820px){
+    .press .press-section ul{
+      height: 44px;
+    }
+    .press .tab-bg{
+      height: 44px;
+    }
+    .press .two-bg{
+      height: 44px;
+    }
+    .press .three-bg{
+      height: 44px;
+    }
+    .press .press-section ul a{
+      height: 44px !important;
+      font-size: 14px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.14;
+      letter-spacing: normal;
+      text-align: center;
+    }
+   }
+ 
+   @media (max-width: 767px) and (min-width: 320px){
+    body{
+      /* text-align: center; */
+    }
+    .press .press-section .tabs-links {
+      margin-top: 30%;
+  }
+    .press .tab-bg{
+      width: 25%;
+      left: 13%;
+    }
+    .press .two-bg{
+      width: 25%;
+      left: 38%;
+    }
+    .press .three-bg{
+      width: 25%;
+      left: 62%;
+    }
+    .press .press-section ul{
+      height: 44px;
+    }
+    .press .press-section ul a{
+      height: 44px !important;
+      font-size: 14px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.14;
+      letter-spacing: normal;
+      text-align: center;
+    }
+    .press .press-section .tabs-links{
+      padding: 0 13% !important;
+    }
+    .press .press-section .image-container{
+      width: 100%;
+    }
+    .press .press-section .tab-content h3{
+      font-size: 20px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.6;
+      letter-spacing: normal;
+      text-align: center;
+      color: #2b2943;
+      margin-bottom: 7%;
+    }
+    .press .press-section .tab-content p{
+      font-size: 16px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      text-align: center;
+      color: #666666;
+    }
+    .press .press-section .tab-content{
+      padding: 5% !important;
+      padding-top: 10% !important;
+    }
+    .press .press-section .tab-content a{
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 0.64px;
+    }
+    .col-sm-mt{
+      margin-top: 15%;
+    }
+    .press .bg-container{
+      background-size: 100% 400px;
+    }
+    .tab-content .tab-2{
+      width: 85%;
+    }
+    .tab-content .tab-3{
+      width: 85%;
+    }
+    
+  }
+ /*==========================================================================
+    End Responsive Press
+   ========================================================================== */
+
+
+
+  /*==========================================================================
+   Start illustrations page
+   ========================================================================== */
+   .illustrations .healthSection2 .mainRow{
+    padding: 208px 0 40px 0;
+    /* margin-top: -1px; */
+   }
+
+   /*==========================================================================
+   End illustrations page
+   ========================================================================== */
+
+
+   /*==========================================================================
+   Start Careers page
+   ========================================================================== */
+
+   .careersPage .CareerSection1{
+    background: url(../images/careers/mask-2.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 440px;
+   }
+   .career-shadow{
+    cursor: pointer;
+    }
+    .career-shadow:hover {
+      min-height: 136px;
+      border-radius: 40px;
+      box-shadow: 0 36px 54px -8px rgba(0, 0, 0, 0.04), 0 14px 22px -9px rgba(0, 0, 0, 0.05);
+      background-color: #ffffff;
+      border: none;
+      margin-top:40px !important;
+    }
+   .careersPage .CareerSection2 .container{
+     padding: 0 14%;
+   }
+   .careersPage .CareerSection2 .card{
+    width: 100%;
+    min-height: 181px;
+    border-radius: 40px;
+    box-shadow: 0 36px 54px -8px rgba(0, 0, 0, 0.04), 0 14px 22px -9px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    border: none;
+   }
+   .careersPage .CareerSection2 .mtm-3{
+     margin-top: 7%;
+   }
+
+   /*==========================================================================
+   End Careers page
+   ========================================================================== */
+ /*==========================================================================
+   Start Careers page Responsive
+   ========================================================================== */
+   @media (max-width: 500px) and (min-width: 320px){
+    .careersPage .CareerSection1{
+      background: url(../images/careers/group.png) no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-position: bottom;
+      min-height: 202px;
+      display: block !important;
+      margin-bottom: 41px !important;
+     }
+     .careersPage .CareerSection1 h1{
+       font-size: 38px !important;
+      
+       
+     }
+     .careersPage .CareerSection1 .mainRow{
+       margin-top: 57px;
+     }
+     .careersPage .CareerSection2 .container{
+      padding: 0 15px !important;
+    }
+    .careersPage .CareerSection2 h1{
+      font-size: 28px !important;
+    }
+    .careersPage .CareerSection2 p{
+      font-size: 16px !important;
+    }
+    .careersPage .CareerSection2 h3{
+      font-size: 20px !important;
+      line-height: 1.4;
+    }
+    .careersPage .CareerSection2 .pr-60{
+      padding-right: 0 !important
+    }
+    .careersPage .CareerSection2 .pl-60{
+      padding-left: 0 !important
+    }
+    .careersPage .CareerSection2 .card{
+      padding: 0 15px !important;
+      border-radius: 6px;
+      box-shadow: 0 36px 54px -8px rgba(0, 0, 0, 0.04), 0 14px 22px -9px rgba(0, 0, 0, 0.05);
+    }
+    .careersPage .CareerSection2 .card .row{
+      margin-top: 35px;
+      padding: 0 15px !important;
+    }
+    .careersPage .CareerSection2 .job-empty h1{
+      font-size: 36px !important;
+    }
+   }
+
+
+ /*==========================================================================
+   End Careers page Responsive
+   ========================================================================== */
+
+/*========================================================================
+
+************************ Start Legal Page **************************************
+
+=========================================================================*/
+.legalShadow{
+  text-shadow: 0px 2px 5px grey;
+  }
+.legalPage{
+    background-image: linear-gradient(to bottom,  #defae8, #ffffff);
+  }
+
+  .LegalMainCard{  
+    margin-top: 120px;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
+  }
+  .LegalMainCard .mainRow {
+    /* height: 605px; */
+  }
+  .LegalMainCard .mainRow .legalRow{
+    padding: 70px 90px 40px 80px;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 0 36px 54px -8px rgba(0, 0, 0, 0.07);
+  }
+  .LegalMainCard .container {
+    width: 60%;
+    /* margin-left: 10%; */
+    padding: 0;
+  }
+  .legal-heading {
+    padding: 0px 0px;
+  }
+  .legalTitle {
+    float: left;
+    line-height: 56px;
+    color: #232137;
+    font-size: 25px;
+  }
+  
+  
+  /*========================================================================
+  
+  ************************ End Legal Page **************************************
+  
+  =========================================================================*/
+  
+  
+  
+  /*========================================================================
+  
+  ************************ Start Privacy Page **************************************
+  
+  =========================================================================*/
+  .privacyPage{
+    background-image: linear-gradient(to bottom,  #defae8, #ffffff);
+  }
+  #li-green ul {
+    display: table;
+    color: #232137;
+    
+    list-style: circle;
+  }
+  
+  #li-green li {
+    /* list-style: none; */
+    display: table-row;
+    text-align: initial;
+    
+  }
+  
+  #li-green li::before {
+    color: #04ab6a;
+    content: "\2022";
+    font-size:30px;
+    display: table-cell;
+    text-align: initial;
+    padding-right: .6em;
+  }
+  /*========================================================================
+  
+  ************************ End Privacy Page **************************************
+  
+  =========================================================================*/
+  
+  
+  /*========================================================================
+  
+  ************************ Satrt Candidate Page **************************************
+  
+  =========================================================================*/
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fafafa;
+    background-clip: padding-box;
+    border: 1px solid #fafafa;
+    border-radius: 1.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  
+  
+  
+  .switch {  max-width: 73em;  margin:0 -15px 0 -15px; }
+  .switch-light > span, .switch-toggle > span {  color: #000000; }
+  .switch-light span span, .switch-light label, .switch-toggle span span, .switch-toggle label {  color: #666666; }
+  
+  .switch-toggle a, 
+  .switch-light span span { display: none; }
+  
+  .switch-light { display: block; height: 50px; position: relative; overflow: visible; padding: 0px; margin-left:0px; }
+  .switch-light * { box-sizing: border-box; }
+  .switch-light a { display: block; transition: all 0.3s ease-out 0s; }
+  
+  .switch-light label, 
+  .switch-light > span { line-height: 30px; vertical-align: middle;}
+  
+  .switch-light label {font-weight: 700; margin-bottom: px; max-width: 100%;}
+  
+  .switch-light input:focus ~ a, .switch-light input:focus + label { outline: 1px dotted rgb(136, 136, 136); }
+  .switch-light input { position: absolute; opacity: 0; z-index: 5; }
+  .switch-light input:checked ~ a { right: 0%;border-radius: 25px;}
+  .switch-light > span { position: absolute; left: -100px; width: 100%; margin: 0px; padding-right: 100px; text-align: left; }
+  .switch-light > span span { position: absolute; top: 13px; left: 0px; z-index: 5; display: block; width: 50%; margin-left: 100px; text-align: center; }
+  .switch-light > span span:last-child { left: 50%; }
+  .switch-light a { position: absolute; right: 50%; top: 0px; z-index: 4; display: block; width: 50%; height: 100%; padding: 0px;border-radius: 25px; background: #04ab6a; }
+  section p {
+    float: initial;
+    width: 100%;
+}
+/*========================================================================
+  
+  ************************ End Candidate Page **************************************
+  
+  =========================================================================*/
+
+
+  /*========================================================================
+  
+  ************************ Start Role Page **************************************
+  
+  =========================================================================*/
+  .rolePage{background-color: #fff;}
+  .roleSection{min-height:200px}
+  .roleSection1{}
+  .roleSection1 .mainRow{min-height:0px;padding:100px 0 55px 0;background-image:url(../images/role/mask-2.png);background-size:cover;background-position:center bottom}
+  .roleSection1 .imgD{max-width:600px}
+  .roleSection1 .imgD svg{max-width:100%}
+  .roleSection1 .imgD em{float:right;text-align:right;width:100%}
+  .roleSection1 .txtD{max-width:480px}
+
+  .roleSection2{margin-top: 100px;margin-bottom: -150px;}
+
+  .roleSection3 .mainRow{min-height:1150px;padding:100px 0 55px 0;background-image:url(../images/role/combined-shape.png);background-size:cover;background-position:center bottom}
+  .roleSection3 .imgD{max-width:600px}
+  .roleSection3 .imgD svg{max-width:100%}
+  .roleSection3 .imgD em{float:right;text-align:right;width:100%}
+  .roleSection3 .txtD{max-width:480px}
+
+  .custListBtnRole{float:left;width:100%;cursor:pointer;padding:25px 50px}
+  .mt-90-minus{
+    margin-top: -20px;
+    margin-bottom: 90px
+  }
+
+  .roleApplyBtn{
+    position: absolute;
+    top: -450px;
+    }
+
+  /*========================================================================
+  
+  ************************ End Role Page **************************************
+  
+  =========================================================================*/
+
+  /*========================================================================
+  
+  ************************ Start Contact Page **************************************
+  
+  =========================================================================*/
+  .container {
+    max-width: 1140px
+  }
+  .contactPage{background-color: #fff;}
+  .contactSection{min-height:200px}
+  .ml-contact-200 {
+    margin-left: 200px !important;
+  }
+  .align-contact-left {
+    text-align: left!important;
+  }
+  .pl-contact-60 {
+    padding-left: 60px !important;
+  }
+  .pl-contact-50 {
+    padding-left: 50px !important;
+  }
+  .mt-contact-minus-50 {
+    margin-top: -50px !important;
+  }
+  .pr-contact-50 {
+    padding-right: 50px !important;
+  }
+  .pt-contact-30 {
+    padding-top: 30px !important;
+  }
+  .contactMainCard{  
+    margin-top: 0px;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
+  }
+  .contactMainCard .mainRow {
+    /* height: 605px; */
+  }
+  .contactMainCard .mainRow .contactRow{
+    padding: 0px;
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 0 36px 54px -8px rgba(0, 0, 0, 0.07);
+  }
+  .contactMainCard .container {
+    width: 100%;
+    /* margin-left: 10%; */
+    padding: 0;
+  }
+
+  .contactSection1 .mainRow{max-height:40rem;padding:150px 0 300px 0;background-image:url(../images/contact/fill-2.png);background-size:cover;background-position:center bottom}
+  .contactSection1 .imgD{max-width:600px}
+  .contactSection1 .imgD svg{max-width:100%}
+  .contactSection1 .imgD em{float:right;text-align:right;width:100%}
+  .contactSection1 .txtD{max-width:480px}
+
+  .contactSection2{margin-bottom: 50rem;}
+
+  .contactSection3 .mainRow{min-height:1150px;padding:200px 0 300px 0;background-image:url(../images/contact/combined-shape.png);background-size:cover;background-position:center bottom}
+  .contactSection3 .imgD{max-width:600px}
+  .contactSection3 .imgD svg{max-width:100%}
+  .contactSection3 .imgD em{float:right;text-align:right;width:100%}
+  .contactSection3 .txtD{max-width:480px}
+
+  /* .custListBtn{float:left;width:100%;cursor:pointer;padding:25px 0px} */
+
+  .mt-minus-1040{
+    margin-top: -1040px;
+  }
+  
+  .contactApplyBtn{
+    position: absolute;
+    top: -450px;
+    }
+
+
+  /*========================================================================
+  
+  ************************ End Contact Page **************************************
+  
+  =========================================================================*/
+
+
+
+
+  /*========================================================================
+  
+  ************************ Media Queries For Legal, Candidate Page **************************************
+  
+  =========================================================================*/
+  @media screen and (max-width:1024px){
+    .roleSection1 .mainRow{padding-bottom:120px}
+    .roleSection1 .mainRow,	.roleSection2 .mainRow{padding-top:50px }
+    .roleSection .mainRow{min-height:auto}
+    .roleSection1 .txtD h2{margin-top:30px !important}
+    .roleSection1 .txtD p{margin-bottom:30px !important}
+    .roleApplyBtn{
+      position: absolute;
+      top: -80px;
+      left: 0px;
+      }
+      .pr-contact-550 {
+        /* padding-right: 450px; */
+      }
+      /* .productSection22 {
+        margin-bottom: 60px !important;
+    } */
+    .mt-90-minus {
+      margin-top: -50px;
+      margin-bottom: 190px;
+  }
+  }
+  @media (min-width: 768px) and (max-width:1024px){
+    .LegalMainCard .mainRow .legalRow {
+      border-radius: 40px !important;
+      box-shadow: 0 36px 54px -8px rgba(0, 0, 0, 0.07) !important;
+    }
+  }
+  @media screen and (max-width: 768px){
+/************** Legal and privacy page Queries ***************/
+    .LegalMainCard .mainRow .legalRow {
+      padding: 30px 20px 20px 20px;
+      margin-left: -52px;
+      margin-right: -60px;
+      border-radius: 0px;
+      box-shadow: none;
+    }
+    .contactMainCard .mainRow .contactRow {
+      padding-bottom: 0px;
+      background: #fff;
+      border-radius: 0px;
+      /* box-shadow: 0 36px 54px -8px rgba(0, 0, 0, 0.07); */
+      margin-left: -60px;
+      margin-right: -60px;
+  }
+    .legalPage h2 {
+        font-size: 40px;
+    }
+    .privacyPage h3 {
+        font-size: 25px;
+    }
+    .left-bus {
+        margin-left: 10%;
+    }
+    .left-dev {
+        margin-left: 14px;
+    }
+    .privacy-heading {
+        font-size: 40px;
+    }
+    .legalTitle {
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 35px;
+    }
+    .legalPage .fs-18 {
+      font-size: 16px!important;
+    }
+
+/************** Role page Queries ***************/
+  .roleSection1 .mainRow ,
+  .roleSection2 .mainRow{padding:0 0 85px 0}
+  .roleSection1 .mainRow{background-image:url(../images/role/group-2.png)}
+  .roleSection1 .txtD h2{margin-top:50px !important;margin-bottom:10px !important}
+  .roleSection1 .txtD p{margin-bottom:30px !important}
+  .roleSection1 .txtD a.btn1{float:none !important}
+  .roleSection1 .imgD{padding-top:50px}
+  .roleSection1 .txtD h2 br{display:none}
+  .roleSection1 .mainRow{background-position:left 20% bottom 0px}
+  .roleSection .mainRow{background-repeat:no-repeat}
+  .roleSection1 .col-lg-6:last-child{padding:0}
+  .roleSection1 .imgD svg{margin-right:-12%}	
+  .roleSection1 .txtD {max-width:100%}
+  .rolePage .custListBtnRole .listArr {
+      width: 34px;
+      height: 34px;
+      line-height: 34px;
+      visibility: hidden;
+  }
+  .roleSection2{margin-top: 0px;margin-bottom: 50px;}
+  .rolePage section p {
+    text-align: left;
+  }
+  .firm-left {
+    text-align: center !important;
+  }
+  .fs-48 {
+    font-size: 36px !important;
+  }
+    .custListBtnRole {
+      padding: 0px 40px;
+  }
+  .roleApplyBtn{
+    position: absolute;
+    /* top: 0px; */
+    left: 32%;
+    }
+    .role-title-left {
+      margin-left: -20px;
+    }
+    .mt-90-minus {
+      margin-top: -50px;
+      margin-bottom: 190px;
+  }
+   .mt-90-minus {
+    margin-top: 50px !important;
+    margin-bottom: -10px !important;
+  }
+/************** Contact page Queries ***************/
+    .btn-center {     margin-left: 29% !important; }
+    .pl-contact-60 {
+      padding-left: 15px !important;
+    }
+    .pr-contact-50 {
+      padding-right: 15px !important;
+    }
+    .pt-contact-30 {
+      padding-top: 15px !important;
+    }
+    .contactSection1 .mainRow {
+      max-height: 30rem;
+      padding: 13px 0 300px 0;
+    }
+    .contactSection2 {
+      margin-top: 80rem;
+      margin-bottom: 40px;
+    }
+    .ml-contact-200 {
+      margin-left: 0px !important;
+    }
+    .align-contact-left {
+      text-align: center!important;
+    }
+}
+/************** Role page Landscape Queries ***************/
+/************** Legal page Iphone 6/7/8 Plus Landscape Query ***************/
+
+@media only screen 
+and (min-device-width : 414px)
+and (max-device-width : 736px) 
+and (orientation : landscape) {
+  .LegalMainCard .mainRow .legalRow {
+    padding: 30px 20px 20px 40px;
+    margin-left: -100px;
+    margin-right: -100px;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+}
+/************** Legal page Iphone 6/7/8 Landscape Query ***************/
+
+@media only screen 
+and (min-device-width : 375px)
+and (max-device-width : 667px) 
+and (orientation : landscape) {
+  .LegalMainCard .mainRow .legalRow {
+    padding: 30px 20px 20px 30px;
+    margin-left: -85px;
+    margin-right: -85px;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+}
+/************** Privacy page Iphone 5/SE  landscape Query ***************/
+
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 568px) 
+and (orientation : landscape) {
+  .left-bus-land {
+    margin-left: -20% !important;
+  }
+  .link-fonts {
+    font-size: 12px !important;
+  }
+  .LegalMainCard .mainRow .legalRow {
+    padding: 30px 20px 20px 30px;
+    margin-left: -75px;
+    margin-right: -75px;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+}
+
+/************** Privacy page Iphone 5/SE Query ***************/
+
+@media only screen 
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .link-fonts {
+    font-size: 15px !important;
+  }
+}
+/************** Role page Landscape Queries ***************/
+@media only screen 
+and (min-device-width : 414px)
+and (max-device-width : 736px) 
+and (orientation : landscape) {
+  .left-bus-land {
+    margin-left: -20% !important;
+  }
+}
+
+  @media screen and (max-width:767px){
+/************** Candidate page Queries ***************/
+.left-bus-land {
+  margin-left: 10%;
+}
+
+.fs-candid-28 {
+    font-size: 21px !important;
+    text-align: center;
+  }
+  .lh-candid-32 {
+    text-align: center;
+  
+  }
+  /************** Legal page Queries ***************/
+  
+  .LegalMainCard .container {
+    width: 75%;
+  }
+  .contactMainCard .container {
+    width: 75%;
+  }
+  .pl-40 {
+    padding-left: 10px !important;
+  }
+}
+  
+  /*========================================================================
+  
+  ************************ Media Queries **************************************
+  
+  =========================================================================*/
+
+  
+  
+  
+  
